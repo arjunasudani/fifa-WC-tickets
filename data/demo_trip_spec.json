@@ -1,0 +1,28 @@
+{
+  "origin": "San Francisco (SFO)",
+  "budget": 1250,
+  "matches": [
+    {
+      "id": "lakers-knicks",
+      "event_name": "Lakers vs Knicks",
+      "city": "Los Angeles",
+      "venue": "Crypto.com Arena",
+      "date": "2026-11-05T19:30:00",
+      "priority": 5
+    },
+    {
+      "id": "nets-heat",
+      "event_name": "Nets vs Heat",
+      "city": "New York",
+      "venue": "Barclays Center",
+      "date": "2026-11-08T19:30:00",
+      "priority": 3
+    }
+  ],
+  "constraints": {
+    "max_layovers": 1,
+    "min_hotel_rating": 4.0,
+    "ticket_tier_preference": "lower_bowl",
+    "travelers_count": 1
+  }
+}

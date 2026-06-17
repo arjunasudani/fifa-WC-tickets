@@ -1,0 +1,21 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "ticket-travel-deal-hunter"
+version = "0.1.0"
+description = "CLI agent that finds the cheapest viable match-travel itinerary."
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+  "anthropic>=0.62.0",
+  "mcp>=1.10.1",
+  "rich>=14.0.0",
+]
+
+[project.scripts]
+ticket-travel-deal-hunter = "main:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["deal_hunter"]

@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Ticket / Travel Deal Hunter</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <main class="shell">
+      <header class="topbar">
+        <div>
+          <p class="eyebrow">Offline MVP Demo</p>
+          <h1>Ticket / Travel Deal Hunter</h1>
+        </div>
+        <div class="run-status">
+          <span class="pulse"></span>
+          <span id="run-status">Loading itinerary</span>
+        </div>
+      </header>
+
+      <section class="summary-grid" aria-label="Trip summary">
+        <article class="summary-panel">
+          <span>Budget</span>
+          <strong id="budget">$0</strong>
+        </article>
+        <article class="summary-panel">
+          <span>Best total</span>
+          <strong id="best-total">$0</strong>
+        </article>
+        <article class="summary-panel">
+          <span>Headroom</span>
+          <strong id="headroom">$0</strong>
+        </article>
+        <article class="summary-panel warning">
+          <span>Dropped match</span>
+          <strong id="dropped-count">0</strong>
+        </article>
+      </section>
+
+      <section class="panel search-panel">
+        <div class="panel-heading search-heading">
+          <div>
+            <h2>Match Search</h2>
+            <span id="schedule-count" class="subtle"></span>
+          </div>
+          <div class="search-controls">
+            <label for="country-select">Country</label>
+            <select id="country-select"></select>
+            <button id="plan-selected" type="button">Plan selected</button>
+          </div>
+        </div>
+        <div class="schedule-wrap">
+          <table class="schedule-table">
+            <thead>
+              <tr>
+                <th>Pick</th>
+                <th>Date</th>
+                <th>Playing</th>
+                <th>Where</th>
+                <th>Priority</th>
+              </tr>
+            </thead>
+            <tbody id="schedule-results"></tbody>
+          </table>
+        </div>
+      </section>
+
+      <section class="workspace">
+        <aside class="panel trip-panel">
+          <div class="panel-heading">
+            <h2>Trip Request</h2>
+            <span id="mode-pill">Seeded</span>
+          </div>
+          <dl class="facts">
+            <div>
+              <dt>Origin</dt>
+              <dd id="origin"></dd>
+            </div>
+            <div>
+              <dt>Travelers</dt>
+              <dd id="travelers"></dd>
+            </div>
+            <div>
+              <dt>Constraints</dt>
+              <dd id="constraints"></dd>
+            </div>
+          </dl>
+          <h3>Requested Matches</h3>
+          <div id="match-list" class="match-list"></div>
+        </aside>
+
+        <section class="panel itinerary-panel">
+          <div class="panel-heading">
+            <h2>Ranked Itineraries</h2>
+            <div id="itinerary-tabs" class="tabs" role="tablist"></div>
+          </div>
+          <div id="itinerary-detail"></div>
+        </section>
+      </section>
+
+      <section class="bottom-grid">
+        <section class="panel">
+          <div class="panel-heading">
+            <h2>Route</h2>
+          </div>
+          <div id="route-timeline" class="timeline"></div>
+        </section>
+        <section class="panel">
+          <div class="panel-heading">
+            <h2>Tradeoff Notes</h2>
+          </div>
+          <div id="tradeoffs" class="tradeoffs"></div>
+        </section>
+      </section>
+    </main>
+    <script src="/app.js" type="module"></script>
+  </body>
+</html>
