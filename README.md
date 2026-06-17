@@ -41,6 +41,8 @@ The app has two layers:
 | `data/fifasprint.zip` | Provided scraped source bundle used by the importer. |
 | `data/emerging_players_scouting_report.md` | Normalized pasted scouting report with player scores, watch teams, travel cities, dates, and scouting notes. |
 | `data/demo_trip_spec.json` | Example trip specification for CLI and live-agent runs. |
+| `data/player_images/` | Downloaded Wikimedia player images, a browser gallery, and source/license manifests for rising-star demo cards. |
+| `rising_stars_agent/` | Standalone rising-star ranking, fixture lookup, report generation, and player-image fetching scripts used to produce the demo assets. |
 | `pyproject.toml` and `uv.lock` | Python package metadata and lockfile. |
 | `package.json` and `package-lock.json` | Frontend dependencies and scripts. |
 | `vite.config.ts` | Vite setup, including `/api` proxying to the Python server. |

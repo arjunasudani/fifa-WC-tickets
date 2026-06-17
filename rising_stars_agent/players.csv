@@ -1,0 +1,13 @@
+name,age,club,country,position,minutes_trend,goals_per_90,assists_per_90,prog_actions_per_90,national_team_exposure,tournament_visibility,contract_months_left,next_game_date,next_game_city
+Phil Foden,22,Manchester City,England,Midfielder,18,0.22,0.15,2.6,Senior,Euro,20,2026-06-21,London
+Jude Bellingham,20,Real Madrid,England,Midfielder,30,0.18,0.10,2.8,Senior,WorldCup,34,2026-06-22,Madrid
+Gavi,19,Barcelona,Spain,Midfielder,16,0.10,0.08,3.0,Senior,Euro,28,2026-06-23,Barcelona
+Pedri,20,Barcelona,Spain,Midfielder,12,0.08,0.09,2.7,Senior,Euro,18,2026-06-24,Seville
+Kylian Mbappé,23,Paris Saint-Germain,France,Forward,10,0.60,0.20,1.8,Senior,WorldCup,12,2026-06-25,Paris
+Xavi Simons,20,PSV Netherlands,Netherlands,Midfielder,22,0.15,0.12,2.4,U21,Euro,14,2026-06-26,Amsterdam
+Jamal Musiala,20,Bayern Munich,Germany,Midfielder,25,0.20,0.14,2.9,Senior,WorldCup,24,2026-06-27,Munich
+Alejandro Garnacho,19,Manchester United,Argentina,Forward,28,0.25,0.08,2.1,Senior,Copa,36,2026-06-28,Manchester
+Ryan Gravenberch,21,Liverpool,Netherlands,Midfielder,8,0.06,0.05,1.9,U21,Euro,16,2026-06-29,Liverpool
+Nuno Mendes,21,Paris Saint-Germain,Portugal,Defender,24,0.02,0.04,3.1,Senior,WorldCup,20,2026-06-30,Paris
+William Saliba,22,Arsenal,France,Defender,19,0.00,0.01,2.8,Senior,WorldCup,26,2026-07-01,London
+Sandro Tonali,22,Newcastle United,Italy,Midfielder,15,0.05,0.06,2.5,Senior,Euro,22,2026-07-02,Newcastle
